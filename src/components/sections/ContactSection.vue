@@ -7,7 +7,7 @@ import { useContactForm } from '@/composables/useContactForm'
 const { t, locale } = useI18n()
 const sectionRef = ref(null)
 const isVisible = useScrollAnimation(sectionRef)
-const { form, submitting, submitted, handleSubmit } = useContactForm()
+const { form, submitting, submitted, error, handleSubmit } = useContactForm()
 </script>
 
 <template>
@@ -71,6 +71,9 @@ const { form, submitting, submitted, handleSubmit } = useContactForm()
               >
                 {{ submitting ? '...' : t('contact.send') }}
               </button>
+              <p v-if="error" class="text-red-400 text-sm mt-3">
+                {{ locale === 'es' ? 'Hubo un error. Intenta de nuevo o escríbeme directo.' : 'Something went wrong. Try again or email me directly.' }}
+              </p>
             </form>
           </div>
 
@@ -78,8 +81,8 @@ const { form, submitting, submitted, handleSubmit } = useContactForm()
             <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-accent/10 mb-6">
               <i class="pi pi-check text-2xl text-accent" />
             </div>
-            <p class="font-display text-xl font-bold">{{ locale === 'es' ? '¡Mensaje enviado!' : 'Message sent!' }}</p>
-            <p class="text-muted mt-2">{{ locale === 'es' ? 'Te respondo pronto.' : "I'll get back to you soon." }}</p>
+            <p class="font-display text-xl font-bold">{{ locale === 'es' ? '¡Listo!' : 'Got it!' }}</p>
+            <p class="text-muted mt-2">{{ locale === 'es' ? 'Gracias por escribirme, te contesto a la brevedad.' : "Thanks for reaching out, I'll get back to you soon." }}</p>
           </div>
         </div>
 

@@ -24,8 +24,8 @@ const categories = Object.keys(techStack)
     <div class="max-w-7xl mx-auto px-6">
       <p style="color: #E8C872;" class="font-mono text-xs tracking-widest uppercase mb-4">/ {{ t('techStack.heading') }}</p>
       <h2 class="text-3xl md:text-5xl font-bold tracking-tight mb-16" style="color: #FAFAFA;">
-        Tools I work<br />
-        <span style="color: #888888;">with daily</span>
+        {{ t('techStack.title1') }}<br />
+        <span style="color: #888888;">{{ t('techStack.title2') }}</span>
       </h2>
 
       <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10">

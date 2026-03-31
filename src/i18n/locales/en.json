@@ -10,17 +10,17 @@
     "greeting": "Hi, I'm",
     "name": "Gustavo Meoño",
     "role": "CTO & Engineering Leader",
-    "tagline": "I turn complexity into products.",
-    "subtitle": "9+ years building platforms, teams, and companies from zero to scale. Currently shaping the tech behind Commando's expansion across 20+ locations.",
+    "tagline": "I build tech that moves businesses.",
+    "subtitle": "CTO with 9+ years of experience building engineering teams and scalable platforms. Currently at Commando, leading the tech behind 20+ locations.",
     "cta": "Let's Talk",
     "resume": "Resume"
   },
   "about": {
     "heading": "About",
-    "intro": "I'm the kind of CTO who still reads pull requests.",
-    "p1": "I've spent the last decade at the intersection of engineering and business — building teams from 4 to 54 developers, architecting systems that handle millions of users, and making technical bets that paid off.",
-    "p2": "My superpower is translating business chaos into clean, scalable systems. Whether it's a fintech app with 1M+ downloads or a fitness platform spanning 20+ locations, I build the tech foundation and the team culture that makes it work.",
-    "p3": "Computer Engineering from UNAM, specialized in Networks & Security. Scrum Master certified. Three talks on AI implementation. And I still write Go on weekends."
+    "intro": "I like building things — teams, systems, products.",
+    "p1": "I've spent the last decade working between engineering and business. I've built teams from scratch, architected platforms serving millions of users, and learned that the best technical decisions are the ones that understand the business context.",
+    "p2": "I'm just as comfortable writing code as I am presenting to a board. I've grown teams from 4 to 54 people, and what I enjoy most is seeing people grow alongside the product.",
+    "p3": "I studied Computer Engineering at UNAM with a specialization in Networks & Security. I'm a certified Scrum Master, I've given three talks on AI implementation, and I still write Go when I can."
   },
   "experience": {
     "heading": "Experience",
@@ -30,107 +30,109 @@
         "company": "UNAM",
         "period": "2017 — 2019",
         "tag": "Where it started",
-        "description": "Managed 3 development teams with 9+ people at UNICA, the university's software unit. Mentored interns through onboarding and performance feedback cycles. Defined system structures and interfaces using PHP and Laravel. Identified process improvements that streamlined software design and delivery workflows. This is where I discovered that building engineers matters as much as building software."
+        "description": "Managed 3 development teams with 9+ people at UNICA, the university's software unit. Mentored interns, defined architectures with PHP and Laravel, and improved delivery processes. It was my first experience leading engineers and where I realized I enjoyed the human side as much as the technical one."
       },
       "flink_em": {
         "role": "Engineering Manager",
         "company": "Flink",
         "period": "2018 — 2020",
         "tag": "First hire",
-        "description": "Joined as the first engineering hire and built the technical foundation from scratch. Developed backend services with Node.js and Django, mobile apps with Kotlin and Swift. Deployed the entire AWS cloud infrastructure — EC2, RDS, S3, Lambda, CloudFormation — from a blank account. Mentored the early engineering team, setting the coding standards and DevOps practices that would scale with the company."
+        "description": "Joined as the first engineer and built the technical foundation from scratch — backend with Node.js and Django, mobile apps with Kotlin and Swift, and full AWS infrastructure. I also set the coding standards and DevOps practices the team would use as we grew."
       },
       "flink_vp": {
         "role": "VP Software Engineering",
         "company": "Flink",
         "period": "2020 — 2021",
-        "tag": "Scale mode",
-        "description": "Led the engineering organization behind a high-traffic investment app that crossed 1M+ downloads. Grew the team from 4 to 54 engineers while maintaining 90% retention and achieving an 85% employee NPS. Championed product roadmaps and guided full lifecycle development. Instituted engineering best practices across DevOps, QA, and quantitative analysis. Built the culture through 1:1 mentoring, career pathing, and training programs."
+        "tag": "Growth",
+        "description": "Led the engineering team behind an investment app that crossed 1M+ downloads. The team grew from 4 to 54 engineers. I focused a lot on culture — 1:1 mentoring, career paths, and creating an environment where people wanted to stay. We hit 85% eNPS and 90% retention."
       },
       "flink_bi": {
         "role": "BI Manager",
         "company": "Flink",
         "period": "2022 — 2023",
         "tag": "Data era",
-        "description": "Founded the Business Intelligence department from zero — defining processes, objectives, and data strategies. Led the Data Engineering team that built the company's first Data Warehouse and ETL pipelines using Databricks and SQL. Delivered actionable analytics that directly drove 25% revenue growth and informed executive decision-making. Coordinated conciliation systems with the CNBV (Mexico's fintech regulatory body), ensuring compliance across all financial operations."
+        "description": "Created the Business Intelligence department from scratch. Built the first Data Warehouse and ETL pipelines with Databricks. The analytics we built helped drive 25% revenue growth. I also coordinated regulatory compliance with CNBV for all financial operations."
       },
       "pepper": {
         "role": "CTO",
         "company": "Pepper",
         "period": "2024 — 2025",
         "tag": "AI-first",
-        "description": "Spearheaded the creation of the engineering team from scratch — recruiting talent, building collaborative culture, and driving continuous development. Pioneered generative AI-powered projects that elevated product innovation for fintech clients. Architected high-performance microservices in Go, engineered CI/CD pipelines that accelerated time-to-market, and developed native Android/iOS modules. Collaborated with cross-functional stakeholders to integrate innovative features in a fast-paced environment."
+        "description": "Built the engineering team from zero again. We worked with generative AI applied to fintech products, I architected microservices in Go, and we set up CI/CD pipelines that let us iterate fast. We also built native modules for Android and iOS."
       },
       "commando": {
         "role": "CTO",
         "company": "Commando",
         "period": "2025 — Now",
         "tag": "Current",
-        "description": "Built Commando's technology organization from the ground up — defining the technical vision, hiring and mentoring engineers, and establishing scalable delivery and quality standards. Architected a cloud-native microservices platform in Go on AWS, enabling reliable operations across 20+ gym locations and supporting international expansion. Developed internal platforms for analytics, payroll, inventory, and integrations that reduced operational overhead. Created a unified data layer for fitness and payment systems, and integrated ERP workflows supporting multi-warehouse and multi-location operations. Strategic technology partner to the executive team and board."
+        "description": "I'm building Commando's technology organization — from the technical vision to hiring the team. I architected Go microservices on AWS that operate across 20+ gyms. I also built internal platforms for analytics, payroll, and inventory, plus a unified data layer for the fitness and payments systems."
       }
     }
   },
   "services": {
-    "heading": "I can help you with",
+    "heading": "How can I help?",
     "items": {
       "leadership": {
         "title": "CTO as a Service",
-        "description": "Technical vision, engineering strategy, and hands-on leadership without the full-time commitment."
+        "description": "Technical vision, engineering strategy, and hands-on leadership — without a full-time commitment."
       },
       "architecture": {
         "title": "System Architecture",
-        "description": "Microservices, cloud-native on AWS/GCP, and systems designed to scale with your business."
+        "description": "Microservices design, cloud-native platforms on AWS/GCP, and systems built to grow with your business."
       },
       "teams": {
-        "title": "Build Your Team",
-        "description": "Hiring, culture, mentoring. I've grown teams from 4 to 54+ with 90% retention."
+        "title": "Team Building",
+        "description": "Hiring, culture, and mentoring. I've grown teams from 4 to 54+ people while keeping 90% retention."
       },
       "data": {
         "title": "Data & Intelligence",
-        "description": "Warehouses, pipelines, dashboards — the infrastructure that turns data into decisions."
+        "description": "Warehouses, pipelines, and dashboards — the infrastructure for making data-driven decisions."
       },
       "ai": {
         "title": "AI Integration",
-        "description": "Practical GenAI implementation. Not hype — real products, real impact."
+        "description": "Practical generative AI implementation. Focused on solving real problems, not chasing trends."
       },
       "product": {
         "title": "MVP to Launch",
-        "description": "From idea to shipped product. Mobile, web, fintech — I've done the zero-to-one multiple times."
+        "description": "End-to-end product development — mobile, web, and fintech. I've taken several products from zero to production."
       }
     }
   },
   "howIWork": {
     "heading": "How I Work",
-    "title": "Beyond the code.",
-    "subtitle": "Technical skills get you in the door. These are the ones that make the difference.",
+    "title": "It's not all code.",
+    "subtitle": "Technical skills matter, but these are the ones that actually make projects work.",
     "categories": {
       "leadership": {
         "label": "Leadership",
         "title": "People-First Leadership",
-        "description": "I build cultures, not just codebases. 1:1 mentoring, career pathing, and creating environments where engineers do their best work. 90% retention and 85 eNPS aren't accidents.",
+        "description": "I focus on creating environments where people do their best work. 1:1 mentoring, career paths, and lots of communication. The 90% retention and 85 eNPS I achieved at Flink came from that.",
         "skills": "Team Building | 1:1 Mentoring | Career Development | Conflict Resolution | Hiring & Onboarding | Performance Reviews | Culture Design | Emotional Intelligence | Remote Team Management | Cross-generational Leadership"
       },
       "methodology": {
         "label": "Methodology",
-        "title": "Agile, For Real",
-        "description": "Not just ceremonies — actual iterative delivery. Scrum Master certified, but pragmatic about process. I adapt methodology to the team, not the other way around.",
-        "skills": "Scrum (SMPC Certified) | Kanban | Sprint Planning | Retrospectives | Iterative Delivery | CI/CD Culture | DevOps Practices | Quality Assurance Strategy | Technical Debt Management | Release Management"
+        "title": "Pragmatic Agile",
+        "description": "Certified Scrum Master, but not dogmatic about it. I use what works for each team — sometimes it's Scrum, sometimes Kanban, sometimes a hybrid. What matters is delivering well and consistently.",
+        "skills": "Scrum (SMPC Certified) | Kanban | Sprint Planning | Retrospectives | Iterative Delivery | CI/CD Culture | DevOps Practices | QA Strategy | Tech Debt Management | Release Management"
       },
       "technical": {
         "label": "Strategy",
-        "title": "Tech Meets Business",
-        "description": "I translate business goals into technical roadmaps. Architecture decisions that consider scale, cost, and time-to-market. The CTO perspective, not just the engineer's.",
+        "title": "Tech with Business Context",
+        "description": "Technical decisions don't live in a vacuum. I always consider scale, cost, and time to deliver. My job is making sure technology is aligned with business goals.",
         "skills": "Technology Roadmapping | Architecture Decision Records | Build vs Buy Analysis | Vendor Evaluation | Cost Optimization | Scalability Planning | Security Best Practices | Compliance (CNBV/Fintech) | MVP Scoping | Technical Due Diligence"
       },
       "communication": {
         "label": "Communication",
-        "title": "Bridge Between Worlds",
-        "description": "I speak engineer and I speak boardroom. Three talks on AI implementation, regulatory coordination with CNBV, and daily alignment between product, design, and engineering.",
+        "title": "Bridge Between Teams",
+        "description": "I move well between technical conversations and business meetings. I've coordinated with regulators (CNBV), presented to boards, and given talks on AI implementation in tech communities.",
         "skills": "Executive Presentations | Board Reporting | Technical Writing | Public Speaking (3 talks) | Stakeholder Management | Cross-functional Alignment | Translating Tech for Non-Tech | Workshop Facilitation | Investor Communication | Community Engagement"
       }
     }
   },
   "techStack": {
     "heading": "Stack",
+    "title1": "Tools I work",
+    "title2": "with daily",
     "categories": {
       "backend": "Backend",
       "frontend": "Frontend & Mobile",
@@ -149,8 +151,8 @@
     }
   },
   "contact": {
-    "heading": "Let's build something.",
-    "subtitle": "Got a project, a team to build, or a technical challenge? Drop me a line.",
+    "heading": "Want to chat?",
+    "subtitle": "If you have a project, need to build a team, or want to explore a technical idea, drop me a line.",
     "name": "Name",
     "email": "Email",
     "message": "What's on your mind?",

@@ -78,7 +78,7 @@ const active = ref('commando')
                   <span class="text-muted/40 mx-2">·</span>
                   <span class="text-muted text-sm font-mono">{{ t(`experience.roles.${active}.period`) }}</span>
                 </p>
-                <p class="text-muted leading-relaxed text-base">
+                <p class="text-muted leading-relaxed text-[1rem]">
                   {{ t(`experience.roles.${active}.description`) }}
                 </p>
               </div>

@@ -52,7 +52,7 @@ const sets = [
             :class="[
               'flex items-center gap-2 px-4 py-2 rounded-full text-xs font-medium transition-all duration-200 cursor-pointer',
               activeSet === i
-                ? 'bg-accent text-base font-display'
+                ? 'bg-accent font-display' + ' text-[#0A0A0A]'
                 : 'border border-border text-muted hover:border-accent/40'
             ]"
           >

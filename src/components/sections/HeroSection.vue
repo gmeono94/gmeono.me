@@ -43,7 +43,7 @@ const scrollToContact = () => {
             <div class="flex items-center gap-4">
               <button
                 @click="scrollToContact"
-                class="px-7 py-3 bg-accent hover:bg-accent-hover text-base font-semibold rounded-full transition-all cursor-pointer hover:scale-105 font-display"
+                class="px-7 py-3 bg-accent hover:bg-accent-hover font-semibold rounded-full transition-all cursor-pointer hover:scale-105 font-display" style="color: #0A0A0A;"
               >
                 {{ t('hero.cta') }}
               </button>
@@ -67,7 +67,7 @@ const scrollToContact = () => {
               </div>
               <!-- Decorative elements -->
               <div class="absolute -bottom-3 -left-3 w-full h-full rounded-2xl border border-accent/20 -z-10" />
-              <div class="absolute -top-4 -right-4 px-4 py-2 bg-accent text-base text-xs font-bold font-display rounded-full">
+              <div class="absolute -top-4 -right-4 px-4 py-2 bg-accent text-xs font-bold font-display rounded-full" style="color: #0A0A0A;">
                 {{ t('hero.role') }}
               </div>
             </div>

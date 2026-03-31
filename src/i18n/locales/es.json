@@ -10,17 +10,17 @@
     "greeting": "Hola, soy",
     "name": "Gustavo Meoño",
     "role": "CTO & Líder de Ingeniería",
-    "tagline": "Convierto complejidad en productos.",
-    "subtitle": "9+ años construyendo plataformas, equipos y empresas desde cero hasta escala. Actualmente liderando la tecnología detrás de la expansión de Commando en 20+ ubicaciones.",
+    "tagline": "Construyo tecnología que mueve negocios.",
+    "subtitle": "CTO con 9+ años de experiencia construyendo equipos de ingeniería y plataformas escalables. Actualmente en Commando, liderando la tecnología detrás de 20+ ubicaciones.",
     "cta": "Hablemos",
     "resume": "CV"
   },
   "about": {
     "heading": "Sobre mí",
-    "intro": "Soy el tipo de CTO que todavía lee pull requests.",
-    "p1": "He pasado la última década en la intersección entre ingeniería y negocio — construyendo equipos de 4 a 54 desarrolladores, arquitectando sistemas que manejan millones de usuarios, y haciendo apuestas técnicas que rindieron frutos.",
-    "p2": "Mi superpoder es traducir el caos de negocio en sistemas limpios y escalables. Ya sea una app fintech con 1M+ descargas o una plataforma fitness en 20+ ubicaciones, construyo la base técnica y la cultura de equipo que lo hace funcionar.",
-    "p3": "Ingeniería en Computación por la UNAM, especializado en Redes y Seguridad. Scrum Master certificado. Tres charlas sobre implementación de AI. Y sigo escribiendo Go los fines de semana."
+    "intro": "Me gusta construir cosas — equipos, sistemas, productos.",
+    "p1": "Llevo la última década trabajando entre ingeniería y negocio. He armado equipos desde cero, arquitectado plataformas que sirven a millones de usuarios, y aprendido que las mejores decisiones técnicas son las que entienden el contexto del negocio.",
+    "p2": "Me siento cómodo tanto escribiendo código como presentando ante un board. He crecido equipos de 4 a 54 personas, y lo que más disfruto es ver a la gente crecer junto con el producto.",
+    "p3": "Estudié Ingeniería en Computación en la UNAM con especialización en Redes y Seguridad. Tengo certificación Scrum Master, he dado tres charlas sobre implementación de AI, y sigo escribiendo Go cuando puedo."
   },
   "experience": {
     "heading": "Experiencia",
@@ -30,107 +30,109 @@
         "company": "UNAM",
         "period": "2017 — 2019",
         "tag": "Donde empezó todo",
-        "description": "Gestioné 3 equipos de desarrollo con 9+ personas en UNICA, la unidad de software de la universidad. Mentoré practicantes a través de ciclos de onboarding y retroalimentación de desempeño. Definí estructuras de sistema e interfaces usando PHP y Laravel. Identifiqué mejoras de proceso que agilizaron el diseño y entrega de software. Aquí descubrí que formar ingenieros importa tanto como construir software."
+        "description": "Gestioné 3 equipos de desarrollo con 9+ personas en UNICA, la unidad de software de la universidad. Mentoré practicantes, definí arquitecturas con PHP y Laravel, y mejoré procesos de entrega. Fue mi primera experiencia liderando ingenieros y donde entendí que me gustaba tanto el lado humano como el técnico."
       },
       "flink_em": {
         "role": "Engineering Manager",
         "company": "Flink",
         "period": "2018 — 2020",
         "tag": "Primer hire",
-        "description": "Entré como el primer hire de ingeniería y construí la base técnica desde cero. Desarrollé servicios backend con Node.js y Django, apps móviles con Kotlin y Swift. Desplegué toda la infraestructura cloud en AWS — EC2, RDS, S3, Lambda, CloudFormation — desde una cuenta en blanco. Mentoré al equipo inicial de ingeniería, estableciendo los estándares de código y prácticas DevOps que escalarían con la empresa."
+        "description": "Entré como el primer ingeniero y construí la base técnica desde cero — backend con Node.js y Django, apps móviles con Kotlin y Swift, e infraestructura AWS completa. También establecí los estándares de código y prácticas de DevOps que usaría el equipo conforme fuimos creciendo."
       },
       "flink_vp": {
         "role": "VP Software Engineering",
         "company": "Flink",
         "period": "2020 — 2021",
-        "tag": "Modo escala",
-        "description": "Lideré la organización de ingeniería detrás de una app de inversión de alto tráfico que cruzó 1M+ descargas. Crecí el equipo de 4 a 54 ingenieros manteniendo 90% de retención y logrando 85% de eNPS. Impulsé roadmaps de producto y guié el desarrollo de ciclo completo. Instituí mejores prácticas de ingeniería en DevOps, QA y análisis cuantitativo. Construí la cultura a través de mentoría 1:1, planes de carrera y programas de capacitación."
+        "tag": "Crecimiento",
+        "description": "Lideré el equipo de ingeniería detrás de una app de inversión que cruzó 1M+ descargas. El equipo creció de 4 a 54 ingenieros. Me enfoqué mucho en cultura — mentoría 1:1, planes de carrera, y crear un ambiente donde la gente quisiera quedarse. Logramos 85% de eNPS y 90% de retención."
       },
       "flink_bi": {
         "role": "BI Manager",
         "company": "Flink",
         "period": "2022 — 2023",
         "tag": "Era de datos",
-        "description": "Fundé el departamento de Business Intelligence desde cero — definiendo procesos, objetivos y estrategias de datos. Lideré el equipo de Data Engineering que construyó el primer Data Warehouse y pipelines ETL usando Databricks y SQL. Entregué analítica accionable que impulsó directamente 25% de crecimiento en ingresos e informó la toma de decisiones ejecutiva. Coordiné sistemas de conciliación con la CNBV (órgano regulador fintech de México), asegurando cumplimiento en todas las operaciones financieras."
+        "description": "Creé el departamento de Business Intelligence desde cero. Armé el primer Data Warehouse y pipelines ETL con Databricks. La analítica que construimos ayudó a impulsar un 25% de crecimiento en ingresos. También coordiné el cumplimiento regulatorio con la CNBV para todas las operaciones financieras."
       },
       "pepper": {
         "role": "CTO",
         "company": "Pepper",
         "period": "2024 — 2025",
         "tag": "AI-first",
-        "description": "Lideré la creación del equipo de ingeniería desde cero — reclutando talento, construyendo cultura colaborativa e impulsando desarrollo continuo. Pionero en proyectos con IA generativa que elevaron la innovación de producto para clientes fintech. Arquitecté microservicios de alto rendimiento en Go, ingenié pipelines CI/CD que aceleraron el time-to-market, y desarrollé módulos nativos Android/iOS. Colaboré con stakeholders cross-funcionales para integrar features innovadores en un ambiente de ritmo acelerado."
+        "description": "Armé el equipo de ingeniería desde cero otra vez. Trabajamos con IA generativa aplicada a productos fintech, arquitecté microservicios en Go, y montamos pipelines de CI/CD que nos permitieron iterar rápido. También desarrollamos módulos nativos para Android e iOS."
       },
       "commando": {
         "role": "CTO",
         "company": "Commando",
         "period": "2025 — Actual",
         "tag": "Actual",
-        "description": "Construí la organización tecnológica de Commando desde cero — definiendo la visión técnica, contratando y mentoreando ingenieros, y estableciendo estándares escalables de entrega y calidad. Arquitecté una plataforma de microservicios cloud-native en Go sobre AWS, habilitando operaciones confiables en 20+ ubicaciones de gimnasios y soportando expansión internacional. Desarrollé plataformas internas de analítica, nómina, inventario e integraciones que redujeron overhead operativo. Creé una capa de datos unificada para sistemas fitness y pagos, e integré flujos ERP soportando operaciones multi-almacén y multi-ubicación. Socio estratégico de tecnología para el equipo ejecutivo y el board."
+        "description": "Estoy construyendo la organización tecnológica de Commando — desde la visión técnica hasta la contratación del equipo. Arquitecté microservicios en Go sobre AWS que operan en 20+ gimnasios. También desarrollé plataformas internas de analítica, nómina e inventario, y una capa de datos unificada para los sistemas de fitness y pagos."
       }
     }
   },
   "services": {
-    "heading": "Puedo ayudarte con",
+    "heading": "¿En qué puedo ayudarte?",
     "items": {
       "leadership": {
         "title": "CTO como Servicio",
-        "description": "Visión técnica, estrategia de ingeniería y liderazgo hands-on sin el compromiso de tiempo completo."
+        "description": "Visión técnica, estrategia de ingeniería y liderazgo práctico, sin necesidad de un compromiso de tiempo completo."
       },
       "architecture": {
         "title": "Arquitectura de Sistemas",
-        "description": "Microservicios, cloud-native en AWS/GCP, y sistemas diseñados para escalar con tu negocio."
+        "description": "Diseño de microservicios, plataformas cloud-native en AWS/GCP, y sistemas pensados para crecer con tu negocio."
       },
       "teams": {
-        "title": "Construye tu Equipo",
-        "description": "Reclutamiento, cultura, mentoría. He crecido equipos de 4 a 54+ con 90% de retención."
+        "title": "Construcción de Equipos",
+        "description": "Reclutamiento, cultura y mentoría. He crecido equipos de 4 a 54+ personas manteniendo 90% de retención."
       },
       "data": {
         "title": "Datos & Inteligencia",
-        "description": "Warehouses, pipelines, dashboards — la infraestructura que convierte datos en decisiones."
+        "description": "Warehouses, pipelines y dashboards — la infraestructura para tomar decisiones basadas en datos."
       },
       "ai": {
         "title": "Integración de AI",
-        "description": "Implementación práctica de GenAI. No hype — productos reales, impacto real."
+        "description": "Implementación práctica de IA generativa. Enfocada en resolver problemas reales, no en seguir tendencias."
       },
       "product": {
         "title": "De MVP a Lanzamiento",
-        "description": "De idea a producto lanzado. Móvil, web, fintech — he hecho el zero-to-one múltiples veces."
+        "description": "Desarrollo de producto de principio a fin — móvil, web y fintech. He llevado varios productos de cero a producción."
       }
     }
   },
   "howIWork": {
     "heading": "Cómo Trabajo",
-    "title": "Más allá del código.",
-    "subtitle": "Las habilidades técnicas te abren la puerta. Estas son las que marcan la diferencia.",
+    "title": "No todo es código.",
+    "subtitle": "Lo técnico es importante, pero estas habilidades son las que hacen que los proyectos realmente funcionen.",
     "categories": {
       "leadership": {
         "label": "Liderazgo",
         "title": "Liderazgo Centrado en Personas",
-        "description": "Construyo culturas, no solo codebases. Mentoría 1:1, planes de carrera y ambientes donde los ingenieros hacen su mejor trabajo. 90% retención y 85 eNPS no son casualidad.",
+        "description": "Me enfoco en crear ambientes donde la gente haga su mejor trabajo. Mentoría 1:1, planes de carrera, y mucha comunicación. El 90% de retención y 85 de eNPS que logré en Flink son resultado de eso.",
         "skills": "Team Building | Mentoría 1:1 | Desarrollo de Carrera | Resolución de Conflictos | Hiring & Onboarding | Evaluaciones de Desempeño | Diseño de Cultura | Inteligencia Emocional | Gestión de Equipos Remotos | Liderazgo Multigeneracional"
       },
       "methodology": {
         "label": "Metodología",
-        "title": "Agile, De Verdad",
-        "description": "No solo ceremonias — entrega iterativa real. Scrum Master certificado, pero pragmático con los procesos. Adapto la metodología al equipo, no al revés.",
+        "title": "Agile Pragmático",
+        "description": "Scrum Master certificado, pero no dogmático. Uso lo que funciona para cada equipo — a veces es Scrum, a veces Kanban, a veces algo híbrido. Lo importante es entregar bien y con consistencia.",
         "skills": "Scrum (SMPC Certificado) | Kanban | Sprint Planning | Retrospectivas | Entrega Iterativa | Cultura CI/CD | Prácticas DevOps | Estrategia de QA | Gestión de Deuda Técnica | Release Management"
       },
       "technical": {
         "label": "Estrategia",
-        "title": "Tecnología Meets Negocio",
-        "description": "Traduzco objetivos de negocio en roadmaps técnicos. Decisiones de arquitectura que consideran escala, costo y time-to-market. La perspectiva de CTO, no solo la del ingeniero.",
+        "title": "Tecnología con Contexto de Negocio",
+        "description": "Las decisiones técnicas no viven en el vacío. Siempre considero escala, costo y tiempo de entrega. Mi trabajo es asegurar que la tecnología esté alineada con los objetivos del negocio.",
         "skills": "Roadmapping Tecnológico | Architecture Decision Records | Análisis Build vs Buy | Evaluación de Vendors | Optimización de Costos | Planificación de Escalabilidad | Mejores Prácticas de Seguridad | Compliance (CNBV/Fintech) | Scoping de MVP | Due Diligence Técnico"
       },
       "communication": {
         "label": "Comunicación",
-        "title": "Puente Entre Mundos",
-        "description": "Hablo ingeniero y hablo sala de juntas. Tres charlas sobre implementación de AI, coordinación regulatoria con CNBV, y alineación diaria entre producto, diseño e ingeniería.",
+        "title": "Puente entre Equipos",
+        "description": "Me muevo bien entre conversaciones técnicas y reuniones de negocio. He coordinado con reguladores (CNBV), presentado ante boards, y dado charlas sobre implementación de AI en comunidades tech.",
         "skills": "Presentaciones Ejecutivas | Reportes a Board | Escritura Técnica | Public Speaking (3 charlas) | Gestión de Stakeholders | Alineación Cross-funcional | Traducir Tech para No-Tech | Facilitación de Workshops | Comunicación con Inversionistas | Engagement Comunitario"
       }
     }
   },
   "techStack": {
     "heading": "Stack",
+    "title1": "Herramientas con las",
+    "title2": "que trabajo",
     "categories": {
       "backend": "Backend",
       "frontend": "Frontend & Móvil",
@@ -149,8 +151,8 @@
     }
   },
   "contact": {
-    "heading": "Construyamos algo.",
-    "subtitle": "¿Tienes un proyecto, un equipo que armar o un reto técnico? Escríbeme.",
+    "heading": "¿Platicamos?",
+    "subtitle": "Si tienes un proyecto, necesitas armar un equipo o quieres explorar una idea técnica, escríbeme.",
     "name": "Nombre",
     "email": "Correo",
     "message": "¿Qué tienes en mente?",

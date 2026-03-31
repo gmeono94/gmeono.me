@@ -19,7 +19,10 @@ import ContactSection from '@/components/sections/ContactSection.vue'
     <ServicesSection />
     <HowIWorkSection />
     <TechStackSection />
-    <ContactSection />
+    <!-- Contact + Footer together as last snap unit -->
+    <div class="snap-section" style="min-height: auto;">
+      <ContactSection />
+      <TheFooter />
+    </div>
   </main>
-  <TheFooter />
 </template>

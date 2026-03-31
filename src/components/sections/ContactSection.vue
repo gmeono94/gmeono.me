@@ -4,7 +4,7 @@ import { ref } from 'vue'
 import { useScrollAnimation } from '@/composables/useScrollAnimation'
 import { useContactForm } from '@/composables/useContactForm'
 
-const { t } = useI18n()
+const { t, locale } = useI18n()
 const sectionRef = ref(null)
 const isVisible = useScrollAnimation(sectionRef)
 const { form, submitting, submitted, handleSubmit } = useContactForm()
@@ -15,7 +15,7 @@ const { form, submitting, submitted, handleSubmit } = useContactForm()
     id="contact"
     ref="sectionRef"
     :class="[
-      'snap-section py-24 md:py-36 bg-base relative noise transition-all duration-700',
+      'py-24 md:py-36 bg-base relative noise transition-all duration-700',
       isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
     ]"
   >
@@ -26,7 +26,7 @@ const { form, submitting, submitted, handleSubmit } = useContactForm()
       <h2 class="font-display text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight mb-4">
         {{ t('contact.heading') }}
       </h2>
-      <p class="text-muted mb-16 max-w-lg text-base">
+      <p class="text-muted mb-16 max-w-lg text-[1rem]">
         {{ t('contact.subtitle') }}
       </p>
 
@@ -67,7 +67,7 @@ const { form, submitting, submitted, handleSubmit } = useContactForm()
               <button
                 type="submit"
                 :disabled="submitting"
-                class="px-8 py-3.5 bg-accent hover:bg-accent-hover text-base font-semibold rounded-full transition-all disabled:opacity-50 cursor-pointer hover:scale-105 font-display"
+                class="px-8 py-3.5 bg-accent hover:bg-accent-hover font-semibold rounded-full transition-all disabled:opacity-50 cursor-pointer hover:scale-105 font-display" style="color: #0A0A0A;"
               >
                 {{ submitting ? '...' : t('contact.send') }}
               </button>
@@ -78,8 +78,8 @@ const { form, submitting, submitted, handleSubmit } = useContactForm()
             <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-accent/10 mb-6">
               <i class="pi pi-check text-2xl text-accent" />
             </div>
-            <p class="font-display text-xl font-bold">Message sent!</p>
-            <p class="text-muted mt-2">I'll get back to you soon.</p>
+            <p class="font-display text-xl font-bold">{{ locale === 'es' ? '¡Mensaje enviado!' : 'Message sent!' }}</p>
+            <p class="text-muted mt-2">{{ locale === 'es' ? 'Te respondo pronto.' : "I'll get back to you soon." }}</p>
           </div>
         </div>
 

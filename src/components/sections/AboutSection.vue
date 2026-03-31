@@ -35,7 +35,7 @@ const isVisible = useScrollAnimation(sectionRef)
           <div class="grid grid-cols-3 gap-6 pt-8 border-t border-border">
             <div>
               <p class="font-display text-3xl font-bold text-accent">20+</p>
-              <p class="text-xs text-muted mt-1 uppercase tracking-wider">Locations</p>
+              <p class="text-xs text-muted mt-1 uppercase tracking-wider">{{ t('achievements.items.locations.label') }}</p>
             </div>
             <div>
               <p class="font-display text-3xl font-bold text-accent">85</p>
@@ -43,7 +43,7 @@ const isVisible = useScrollAnimation(sectionRef)
             </div>
             <div>
               <p class="font-display text-3xl font-bold text-accent">25%</p>
-              <p class="text-xs text-muted mt-1 uppercase tracking-wider">Rev. Growth</p>
+              <p class="text-xs text-muted mt-1 uppercase tracking-wider">{{ t('achievements.items.revenue.label') }}</p>
             </div>
           </div>
         </div>

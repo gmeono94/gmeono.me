@@ -1,0 +1,164 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "services": "Services",
+    "techStack": "Stack",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Gustavo Meoño",
+    "role": "CTO & Engineering Leader",
+    "tagline": "I turn complexity into products.",
+    "subtitle": "9+ years building platforms, teams, and companies from zero to scale. Currently shaping the tech behind Commando's expansion across 20+ locations.",
+    "cta": "Let's Talk",
+    "resume": "Resume"
+  },
+  "about": {
+    "heading": "About",
+    "intro": "I'm the kind of CTO who still reads pull requests.",
+    "p1": "I've spent the last decade at the intersection of engineering and business — building teams from 4 to 54 developers, architecting systems that handle millions of users, and making technical bets that paid off.",
+    "p2": "My superpower is translating business chaos into clean, scalable systems. Whether it's a fintech app with 1M+ downloads or a fitness platform spanning 20+ locations, I build the tech foundation and the team culture that makes it work.",
+    "p3": "Computer Engineering from UNAM, specialized in Networks & Security. Scrum Master certified. Three talks on AI implementation. And I still write Go on weekends."
+  },
+  "experience": {
+    "heading": "Experience",
+    "roles": {
+      "unam": {
+        "role": "Software Project Manager",
+        "company": "UNAM",
+        "period": "2017 — 2019",
+        "tag": "Where it started",
+        "description": "Managed 3 development teams with 9+ people at UNICA, the university's software unit. Mentored interns through onboarding and performance feedback cycles. Defined system structures and interfaces using PHP and Laravel. Identified process improvements that streamlined software design and delivery workflows. This is where I discovered that building engineers matters as much as building software."
+      },
+      "flink_em": {
+        "role": "Engineering Manager",
+        "company": "Flink",
+        "period": "2018 — 2020",
+        "tag": "First hire",
+        "description": "Joined as the first engineering hire and built the technical foundation from scratch. Developed backend services with Node.js and Django, mobile apps with Kotlin and Swift. Deployed the entire AWS cloud infrastructure — EC2, RDS, S3, Lambda, CloudFormation — from a blank account. Mentored the early engineering team, setting the coding standards and DevOps practices that would scale with the company."
+      },
+      "flink_vp": {
+        "role": "VP Software Engineering",
+        "company": "Flink",
+        "period": "2020 — 2021",
+        "tag": "Scale mode",
+        "description": "Led the engineering organization behind a high-traffic investment app that crossed 1M+ downloads. Grew the team from 4 to 54 engineers while maintaining 90% retention and achieving an 85% employee NPS. Championed product roadmaps and guided full lifecycle development. Instituted engineering best practices across DevOps, QA, and quantitative analysis. Built the culture through 1:1 mentoring, career pathing, and training programs."
+      },
+      "flink_bi": {
+        "role": "BI Manager",
+        "company": "Flink",
+        "period": "2022 — 2023",
+        "tag": "Data era",
+        "description": "Founded the Business Intelligence department from zero — defining processes, objectives, and data strategies. Led the Data Engineering team that built the company's first Data Warehouse and ETL pipelines using Databricks and SQL. Delivered actionable analytics that directly drove 25% revenue growth and informed executive decision-making. Coordinated conciliation systems with the CNBV (Mexico's fintech regulatory body), ensuring compliance across all financial operations."
+      },
+      "pepper": {
+        "role": "CTO",
+        "company": "Pepper",
+        "period": "2024 — 2025",
+        "tag": "AI-first",
+        "description": "Spearheaded the creation of the engineering team from scratch — recruiting talent, building collaborative culture, and driving continuous development. Pioneered generative AI-powered projects that elevated product innovation for fintech clients. Architected high-performance microservices in Go, engineered CI/CD pipelines that accelerated time-to-market, and developed native Android/iOS modules. Collaborated with cross-functional stakeholders to integrate innovative features in a fast-paced environment."
+      },
+      "commando": {
+        "role": "CTO",
+        "company": "Commando",
+        "period": "2025 — Now",
+        "tag": "Current",
+        "description": "Built Commando's technology organization from the ground up — defining the technical vision, hiring and mentoring engineers, and establishing scalable delivery and quality standards. Architected a cloud-native microservices platform in Go on AWS, enabling reliable operations across 20+ gym locations and supporting international expansion. Developed internal platforms for analytics, payroll, inventory, and integrations that reduced operational overhead. Created a unified data layer for fitness and payment systems, and integrated ERP workflows supporting multi-warehouse and multi-location operations. Strategic technology partner to the executive team and board."
+      }
+    }
+  },
+  "services": {
+    "heading": "I can help you with",
+    "items": {
+      "leadership": {
+        "title": "CTO as a Service",
+        "description": "Technical vision, engineering strategy, and hands-on leadership without the full-time commitment."
+      },
+      "architecture": {
+        "title": "System Architecture",
+        "description": "Microservices, cloud-native on AWS/GCP, and systems designed to scale with your business."
+      },
+      "teams": {
+        "title": "Build Your Team",
+        "description": "Hiring, culture, mentoring. I've grown teams from 4 to 54+ with 90% retention."
+      },
+      "data": {
+        "title": "Data & Intelligence",
+        "description": "Warehouses, pipelines, dashboards — the infrastructure that turns data into decisions."
+      },
+      "ai": {
+        "title": "AI Integration",
+        "description": "Practical GenAI implementation. Not hype — real products, real impact."
+      },
+      "product": {
+        "title": "MVP to Launch",
+        "description": "From idea to shipped product. Mobile, web, fintech — I've done the zero-to-one multiple times."
+      }
+    }
+  },
+  "howIWork": {
+    "heading": "How I Work",
+    "title": "Beyond the code.",
+    "subtitle": "Technical skills get you in the door. These are the ones that make the difference.",
+    "categories": {
+      "leadership": {
+        "label": "Leadership",
+        "title": "People-First Leadership",
+        "description": "I build cultures, not just codebases. 1:1 mentoring, career pathing, and creating environments where engineers do their best work. 90% retention and 85 eNPS aren't accidents.",
+        "skills": "Team Building | 1:1 Mentoring | Career Development | Conflict Resolution | Hiring & Onboarding | Performance Reviews | Culture Design | Emotional Intelligence | Remote Team Management | Cross-generational Leadership"
+      },
+      "methodology": {
+        "label": "Methodology",
+        "title": "Agile, For Real",
+        "description": "Not just ceremonies — actual iterative delivery. Scrum Master certified, but pragmatic about process. I adapt methodology to the team, not the other way around.",
+        "skills": "Scrum (SMPC Certified) | Kanban | Sprint Planning | Retrospectives | Iterative Delivery | CI/CD Culture | DevOps Practices | Quality Assurance Strategy | Technical Debt Management | Release Management"
+      },
+      "technical": {
+        "label": "Strategy",
+        "title": "Tech Meets Business",
+        "description": "I translate business goals into technical roadmaps. Architecture decisions that consider scale, cost, and time-to-market. The CTO perspective, not just the engineer's.",
+        "skills": "Technology Roadmapping | Architecture Decision Records | Build vs Buy Analysis | Vendor Evaluation | Cost Optimization | Scalability Planning | Security Best Practices | Compliance (CNBV/Fintech) | MVP Scoping | Technical Due Diligence"
+      },
+      "communication": {
+        "label": "Communication",
+        "title": "Bridge Between Worlds",
+        "description": "I speak engineer and I speak boardroom. Three talks on AI implementation, regulatory coordination with CNBV, and daily alignment between product, design, and engineering.",
+        "skills": "Executive Presentations | Board Reporting | Technical Writing | Public Speaking (3 talks) | Stakeholder Management | Cross-functional Alignment | Translating Tech for Non-Tech | Workshop Facilitation | Investor Communication | Community Engagement"
+      }
+    }
+  },
+  "techStack": {
+    "heading": "Stack",
+    "categories": {
+      "backend": "Backend",
+      "frontend": "Frontend & Mobile",
+      "cloud": "Cloud & DevOps",
+      "data": "Data"
+    }
+  },
+  "achievements": {
+    "items": {
+      "experience": { "value": "9+", "label": "Years" },
+      "engineers": { "value": "54+", "label": "Engineers Led" },
+      "downloads": { "value": "1M+", "label": "Downloads" },
+      "locations": { "value": "20+", "label": "Locations" },
+      "enps": { "value": "85", "label": "eNPS" },
+      "revenue": { "value": "25%", "label": "Revenue Growth" }
+    }
+  },
+  "contact": {
+    "heading": "Let's build something.",
+    "subtitle": "Got a project, a team to build, or a technical challenge? Drop me a line.",
+    "name": "Name",
+    "email": "Email",
+    "message": "What's on your mind?",
+    "send": "Send",
+    "resume": "Resume"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "built": "Designed & built by Gustavo Meoño"
+  }
+}

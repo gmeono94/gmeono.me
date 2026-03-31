@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+@theme {
+  --color-base: #0A0A0A;
+  --color-base-light: #111111;
+  --color-base-card: #161616;
+  --color-primary: #FAFAFA;
+  --color-muted: #888888;
+  --color-accent: #E8C872;
+  --color-accent-hover: #D4A843;
+  --color-border: #222222;
+  --color-border-hover: #333333;
+  --font-family: 'Inter', sans-serif;
+  --font-display: 'Sora', sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y proximity;
+  }
+
+  body {
+    font-family: var(--font-family);
+    color: var(--color-primary);
+    background-color: var(--color-base);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: var(--color-accent);
+    color: var(--color-base);
+  }
+}
+
+/* Full-page sections */
+.snap-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  scroll-snap-align: start;
+}
+
+/* Custom component styles */
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.exp-card .exp-description {
+  max-height: 0;
+  opacity: 0;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.exp-card:hover .exp-description {
+  max-height: 200px;
+  opacity: 1;
+}
+
+.exp-card:hover {
+  border-color: var(--color-accent);
+}
+
+.bento-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto auto;
+  gap: 1rem;
+}
+
+.bento-grid .bento-wide {
+  grid-column: span 2;
+}
+
+.bento-grid .bento-full {
+  grid-column: span 3;
+}
+
+@media (max-width: 768px) {
+  .bento-grid {
+    grid-template-columns: 1fr;
+  }
+  .bento-grid .bento-wide,
+  .bento-grid .bento-full {
+    grid-column: span 1;
+  }
+}
+
+/* Noise texture */
+.noise::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0.04;
+  pointer-events: none;
+  background-image: url('data:image/svg+xml,%3Csvg viewBox=%220 0 256 256%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22n%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.9%22 numOctaves=%224%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23n)%22/%3E%3C/svg%3E');
+}
+
+/* Glow blob */
+.glow {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(120px);
+  pointer-events: none;
+}
